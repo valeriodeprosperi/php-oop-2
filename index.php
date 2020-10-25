@@ -1,6 +1,6 @@
 <?php
 
-class shoes{
+class shoe{
   public $brand;
 }
 
@@ -24,5 +24,7 @@ $shoe2->brand = "Adidas";
 $shoe2->shoeColour = "Black";
 $shoe2->shoeModel = "Stan Smith";
 $shoe2->shoeNumber = "41";
+
+$shoes = [$shoe1, $shoe2];
 
  ?>
